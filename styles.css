@@ -1,0 +1,261 @@
+.googleImg {
+    width: fit-content;
+}
+#navbar {
+    border-width: 5px;
+    height: 1em;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 15px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+}
+
+body {
+   
+    height: 20vh;
+    overflow: hidden;
+
+}
+
+#googleImg {
+    position: absolute;
+
+}
+input {
+    display: block;
+    position: static;
+    height: 4000px;
+    margin-top: 270px;
+    border-radius: 10em;
+    border-width: 1px;
+    border-color: rgb(223,225,229);
+    max-width: 550px;
+    width: 90vw;
+    height: 35px;
+}
+input:hover {
+    border-width:2.5px;
+}
+
+a {
+    margin-right: 25px;
+    margin-top: 10px;
+    /*style*/
+    font-family: arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-decoration: underline solid rgba(0, 0, 0, 0.87);
+	text-align: right;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	word-spacing: 0px;
+}
+
+#nameImg{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(194,24,91);
+    border-radius: 50%;
+    margin-right: 28px;
+    align-self: center;
+
+}
+
+#gmailLinkdiv {
+    align-self: center;
+
+}
+#imageLink {
+    align-self: center;
+
+}
+
+p {
+    margin-top: 6px;
+    margin-left: 11.5px;
+    position: relative;
+    user-select: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: initial;
+}
+
+
+#container {
+    position: relative;
+    height: 99vh;
+    width: 100vw;
+    overflow: hidden
+    
+    
+  }
+
+#buttons{
+
+    width: 299px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-right:16px;
+
+  }
+
+  button{
+    /*Box Style*/
+    height: 36px;
+	width: 140.641px;
+	border: 1px solid rgb(218, 220, 224);
+	border-top: 1px solid rgb(218, 220, 224);
+	border-right: 1px solid rgb(218, 220, 224);
+	border-bottom: 1px solid rgb(218, 220, 224);
+	border-left: 1px solid rgb(218, 220, 224);
+	margin: 11px 4px;
+	padding: 0px 16px;
+	max-height: none;
+	min-height: 0px;
+	max-width: none;
+    min-width: 54px;
+    border-radius: 3px;
+    /*font*/
+    font-family: arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 27px;
+	text-decoration: none solid rgb(32, 33, 36);
+	text-align: center;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: pre;
+    word-spacing: 0px;
+    	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(248, 249, 250);
+	background-image: -webkit-linear-gradient(top, rgb(248, 249, 250), rgb(248, 249, 250));
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(32, 33, 36);
+  }
+
+  #micro {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    margin-top: -32px;
+    margin-left: 80vw;
+    
+  }
+
+  @media screen and (min-width: 640px) {
+    #micro {
+       margin-left: 513px;
+    }
+ }
+
+ #keyboard {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    margin-top: -25px;
+    margin-left: 68vw;
+    
+  }
+
+  @media screen and (min-width: 640px) {
+    #keyboard {
+       margin-left: 450px;
+    }
+ }
+
+ #lupa {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    margin-top: -25px;
+    margin-left: -81vw;
+    
+  }
+
+  @media screen and (min-width: 640px) {
+    #lupa {
+       margin-left: -509px;
+    }
+ }
+
+
+
+ #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(242,242,242);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    /*font*/
+    font-family: arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 30px;
+	
+    text-decoration: none;
+
+  }
+
+.left-side {
+    display: inline;
+    vertical-align: center;
+    
+}
+
+.right-side {
+    display: inline;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+
